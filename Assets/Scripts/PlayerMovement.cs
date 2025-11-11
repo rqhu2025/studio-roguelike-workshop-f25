@@ -22,14 +22,6 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-    public void OnClick(InputValue inputValue)
-    {
-        if (inputValue.isPressed)
-        {
-            rb.AddTorque(100.0f);
-        }
-    }
-
     void FixedUpdate()
     {
         Vector2 move = new Vector2(movementDir.x, movementDir.y);
