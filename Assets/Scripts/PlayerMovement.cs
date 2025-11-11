@@ -3,13 +3,14 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private Rigidbody2D rb;
+    private Rigidbody2D rb;
     [SerializeField] private float moveSpeed = 5f;
     private Vector2 movementDir = Vector2.zero;
 
     void Start()
     {
         Debug.Log("PlayerMovement script initialized.");
+        rb = GetComponent<Rigidbody2D>();
     }
 
     public void OnMove(InputValue inputValue)

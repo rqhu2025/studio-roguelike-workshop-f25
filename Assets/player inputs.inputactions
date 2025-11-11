@@ -34,9 +34,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Fall",
+                    "name": "Click",
                     "type": "Button",
-                    "id": "a54dbae2-21e4-41a3-8f93-e5859e85c3be",
+                    "id": "a7830318-11f3-4443-8f76-5322506d6afb",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -266,12 +266,23 @@
                 },
                 {
                     "name": "",
-                    "id": "8b952c50-700c-40a4-9451-1dfd0269e6d7",
-                    "path": "<Keyboard>/#(F)",
+                    "id": "909bc3ae-64e2-4dcd-b37c-05206f3edca0",
+                    "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Fall",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a8886501-34e8-4680-97b6-0ce359de7d0b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
